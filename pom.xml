@@ -65,13 +65,13 @@
   </build>
   <distributionManagement>
        <repository>
-          <id>nexus-release</id>
-           <name>Releases</name>
+          <id>Releases</id>
+           <name>nexus-release</name>
            <url>https://nexus.gcnp.local/repository/nexus-release/</url>
        </repository>
        <snapshotRepository>
-           <id>nexus-snapshot</id>
-            <name>Snapshots</name>
+           <id>Snapshots</id>
+            <name>nexus-snapshot</name>
              <url>https://nexus.gcnp.local/repository/nexus-snapshot/</url>
              <uniqueVersion>false</uniqueVersion>
              </snapshotRepository>
